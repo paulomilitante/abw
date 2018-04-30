@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+nav ul a {
+	color: #c7a32a !important;
+}
+
+.fullpage {
+	min-height: 90vh;
+}
+
+#landing img {
+	width: 50vh;
+}
+
+#landing h1,
+#rsvp h2 {
+	font-family: 'Tangerine', cursive;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#landing .btn-flat,
+#rsvp .btn-flat {
+	margin-top: 10vh;
+	padding: 0 5vh;
+	border: 1px solid #c7a32a;
+	color: #c7a32a;
+}
+
+#rsvp .btn-flat {
+	margin-top: 5vh;
+}
+
+#landing,
+.nav-filter {
+	background-image: url("img/paper.png");
+}
+
+#rsvp .container {
+	padding-top: 20vh;
+}
+
+#rsvp h2 {
+	color: #c7a32a;
+}
+
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label {
+	color: #c7a32a !important;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+	border-bottom: 1px solid #c7a32a !important;
+	box-shadow: 0 1px 0 0 #c7a32a !important;
+}
+
+.dropdown-content li>span {
+	color: #000 !important;
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta property="og:url"                content="http://www.paulomilitante.ml/index.html" />
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="Paulo Militante | Web Developer" />
+	<meta property="og:description"        content="I'm a Web Developer based in Manila. I have an intense passion for solving problems by learning how things work. I build cool websites from scratch. Check out my profile!"/>
+	<meta property="og:image"              content="http://www.paulomilitante.ml/assets/img/my_logo.png" />
+
+
+	<link rel="shortcut icon" type="image/png" href="assets/img/favicon.png">
+
+	<title>Alexis | Bingo</title>
+
+
+	<link rel="stylesheet" type="text/css" href="assets/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Raleway|Tangerine" rel="stylesheet">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<div class="navbar-fixed">
+		<nav class="blue-grey darken-4">
+			<div class="nav-wrapper">
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="#rsvp">RSVP</a></li>
+					<li><a href="sass.html">CEREMONY</a></li>
+					<li><a href="badges.html">RECEPTION</a></li>
+					<li><a href="collapsible.html">ATTIRE</a></li>
+					<li><a href="collapsible.html">REGISTRY</a></li>
+					<li><a href="collapsible.html">FAQ</a></li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<section id="landing" class="fullpage valign-wrapper blue-grey-text text-darken-4">
+		<div class="container">
+			<div class="row center-align"><img src="assets/img/monogram.png"></div>
+			<div class="row center-align">
+				<h1>Telan - Cimagala Nuptials</h1>
+			</div>
+			<div class="row center-align">
+				<a href="#rsvp" class="waves-effect waves-light btn-flat">RSVP</a>
+			</div>
+		</div>	
+	</section>
+
+	<section id="rsvp" class="fullpage scrollspy valign-wrapper">
+		<div class="container">
+			<div class="row center-align">
+				<h2>RSVP</h2>
+				<p>Please respond on or before 20th May 2018</p>
+			</div>
+			<div class="row">
+				<form class="col s12 m8 l6 offset-m2 offset-l3" method="POST" action="rsvp-email.php">
+					<div class="row">
+						<div class="input-field col s12">
+							<input id="name" name="name" type="text" required>
+							<label for="name">Name</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="name-of-guest" name="name-of-guest" type="text" required>
+							<label for="name-of-guest">Name of Guest</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="mobile-number" name="mobile-number" type="number" required>
+							<label for="mobile-number">Mobile</label>
+						</div>
+						<div class="input-field col s12">
+							<input id="email" name="email" type="email" required>
+							<label for="email">Email</label>
+						</div>
+						<div class="input-field col s12">
+							<select required>
+								<option value="" selected disabled>Select Response</option>
+								<option>Yes, I will attend (Ceremony Only)</option>
+								<option>Yes, I will attend (Reception Only)</option>
+								<option>Yes, I will attend (Ceremony and Reception)</option>
+								<option>No, I will not attend</option>
+							</select>
+							<label>Will you celebrate with us?</label>
+						</div>
+						<div class="col s12 center-align">
+							<p><i>All information will be visible to the couple only</i></p>
+							<button type="submit" class="waves-effect waves-light btn-flat">Submit</button>
+						</div>
+					</div>					
+				</form>
+			</div>
+		</div>	
+	</section>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+	<script src="assets/script.js"></script>
+</body>
+</html>
