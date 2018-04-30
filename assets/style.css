@@ -8,16 +8,42 @@ body {
 	font-family: 'Raleway', sans-serif;
 }
 
+nav {
+	box-shadow: 0 2px 2px 0 #c7a32a, 0 3px 1px -2px #c7a32a, 0 1px 5px 0 #c7a32a !important;
+}
+
 nav ul a {
 	color: #c7a32a !important;
+}
+
+.nav-wrapper .material-icons {
+	color: #c7a32a !important;
+}
+
+.sidenav {
+	padding-top: 30px;
+}
+
+.sidenav li>a {
+	color: #c7a32a !important;
+	text-align: center !important;
+}
+
+#landing {
+	background-image: url("img/paper.png");
+	background-size: cover;
 }
 
 .fullpage {
 	min-height: 90vh;
 }
 
+#landing .container {
+	padding-top: 50px;
+}
+
 #landing img {
-	width: 50vh;
+	height: 30vh;
 }
 
 #landing h1,
@@ -29,23 +55,19 @@ nav ul a {
 
 #landing .btn-flat,
 #rsvp .btn-flat {
-	margin-top: 10vh;
-	padding: 0 5vh;
+	margin: 10vh auto;
+	padding: 0 8vh;
 	border: 1px solid #c7a32a;
 	color: #c7a32a;
 }
 
 #rsvp .btn-flat {
-	margin-top: 5vh;
+	margin: 5vh auto;
 }
 
-#landing,
-.nav-filter {
-	background-image: url("img/paper.png");
-}
 
 #rsvp .container {
-	padding-top: 20vh;
+	padding-top: 100px;
 }
 
 #rsvp h2 {
