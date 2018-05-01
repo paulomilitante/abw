@@ -38,10 +38,10 @@ nav ul a {
 }
 
 #landing,
-#ceremony,
-#registry {
-	background-image: url("img/paper.png");
-	background-size: cover;
+#reception,
+#registry,
+#countdown {
+	background-image: url("img/pink_rice.png");
 }
 
 .fullpage {
@@ -53,6 +53,7 @@ nav ul a {
 }
 
 #landing h1,
+#countdown h1,
 h2,
 h4 {
 	font-family: 'Tangerine', cursive;
@@ -88,21 +89,24 @@ h4 {
 #reception h2,
 #attire h2,
 #registry h2,
-#faq h2 {
+#faq h2,
+#countdown h1 {
 	color: #c7a32a;
 }
 
 input[type=text]:not(.browser-default):focus:not([readonly]) + label,
 input[type=number]:not(.browser-default):focus:not([readonly]) + label,
 input[type=email]:not(.browser-default):focus:not([readonly]) + label,
-input[type=password]:not(.browser-default):focus:not([readonly]) + label {
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+textarea:not(.browser-default):focus:not([readonly]) + label {
 	color: #c7a32a !important;
 }
 
 input[type=text]:focus,
 input[type=number]:focus,
 input[type=email]:focus,
-input[type=password]:focus {
+input[type=password]:focus,
+textarea:focus {
 	border-bottom: 1px solid #c7a32a !important;
 	box-shadow: 0 1px 0 0 #c7a32a !important;
 }
@@ -118,6 +122,7 @@ iframe {
 	margin: 5vh auto;
 }
 
-#reception {
-	background-image: url("img/vintage-concrete.png");
+#ceremony,
+#attire {
+	background-image: url("img/paper.png");
 }

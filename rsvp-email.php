@@ -7,6 +7,7 @@ $name = $_POST['name'];
 $guestname = $_POST['name-of-guest'];
 $mobile = $_POST['mobile-number'];
 $attend = $_POST['attend'];
+$message = $_POST['message'];
 
 $body = "<html>
 <body>
@@ -15,6 +16,7 @@ $body = "<html>
 <p><b>Mobile:</b> $mobile</p>
 <p><b>Email:</b> $email</p>
 <p><b>Response:</b> $attend</p>
+<p><b>Message:</b> $message</p>
 </body>
 </html>";
 
