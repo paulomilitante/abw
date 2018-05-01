@@ -10,11 +10,11 @@ $attend = $_POST['attend'];
 
 $body = "<html>
 <body>
-<p><b>Name:</b>$name</p>
-<p><b>Name of Guest:</b>$guestname</p>
-<p><b>Mobile:</b>$mobile</p>
-<p><b>Email:</b>$email</p>
-<p><b>Response:</b>$attend</p>
+<p><b>Name:</b> $name</p>
+<p><b>Name of Guest:</b> $guestname</p>
+<p><b>Mobile:</b> $mobile</p>
+<p><b>Email:</b> $email</p>
+<p><b>Response:</b> $attend</p>
 </body>
 </html>";
 
