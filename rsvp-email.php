@@ -32,6 +32,6 @@ echo $response->statusCode();
 echo $response->headers();
 echo $response->body();
 
-header("location: index.php");
+include("success.html");
 
 ?>

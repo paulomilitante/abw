@@ -60,7 +60,8 @@ h2 {
 }
 
 #landing .btn-flat,
-#rsvp .btn-flat {
+#rsvp .btn-flat,
+#ceremony .btn-flat {
 	margin: 5vh auto 10vh auto;
 	padding: 0 8vh;
 	border: 1px solid #c7a32a;
