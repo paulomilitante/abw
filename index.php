@@ -8,12 +8,6 @@ if($pass == "10062018")
 else
 {
     if(isset($_POST))
-    {?>
-
-            <form method="POST">
-            Enter Password: <input type="password" name="pass"></input><br><br>
-            <input type="submit" name="submit" value="Submit"></input>
-            </form>
-    <?}
+    	include("login.html");
 }
 ?>
