@@ -11,8 +11,8 @@ else
     {?>
 
             <form method="POST">
-            Pass <input type="password" name="pass"></input><br/>
-            <input type="submit" name="submit" value="Go"></input>
+            Enter Password: <input type="password" name="pass"></input><br><br>
+            <input type="submit" name="submit" value="Submit"></input>
             </form>
     <?}
 }
