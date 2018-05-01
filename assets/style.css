@@ -53,16 +53,21 @@ nav ul a {
 }
 
 #landing h1,
-h2 {
+h2,
+h4 {
 	font-family: 'Tangerine', cursive;
 	text-align: center;
 	margin: 0 auto;
 }
 
+#landing h4 {
+	margin-top: 0;
+}
+
 #landing .btn-flat,
 #rsvp .btn-flat,
 #ceremony .btn-flat {
-	margin: 5vh auto 10vh auto;
+	margin: 1vh auto 5vh auto;
 	padding: 0 8vh;
 	border: 1px solid #c7a32a;
 	color: #c7a32a;
