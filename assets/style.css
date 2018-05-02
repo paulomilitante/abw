@@ -50,7 +50,9 @@ nav ul a {
 	min-height: 100vh;
 }
 
-#landing img {
+#landing img,
+#login img,
+#success img {
 	height: 20vh;
 }
 
@@ -94,8 +96,6 @@ h4 {
 #attire h2,
 #registry h2,
 #faq h2,
-#login h2,
-#success h2,
 #countdown h1 {
 	color: #c7a32a;
 }
@@ -131,4 +131,23 @@ iframe {
 #ceremony,
 #attire {
 	background-image: url("img/paper.png");
+}
+
+#countdown {
+	padding-bottom: 10vh;
+}
+
+.page-footer .footer-copyright {
+	color: #c7a32a !important;
+	background-color: #fff !important;
+}
+
+.footer-container,
+.footer-copyright,
+.page-footer {
+	padding: 0 !important;
+}
+
+footer {
+	box-shadow: 0 -2px 2px 0 #c7a32a, 0 -3px 1px -2px #c7a32a, 0 -1px 5px 0 #c7a32a !important;
 }
