@@ -16,10 +16,6 @@ nav ul a {
 	color: #c7a32a !important;
 }
 
-.navbar-fixed {
-	position: absolute !important;
-}
-
 .nav-wrapper .material-icons {
 	color: #c7a32a !important;
 }
@@ -35,9 +31,14 @@ nav ul a {
 
 .arrow-upward {
 	padding-right: 20px !important;
+	padding-left: 20px !important;
 }
 
-#landing,
+.arrow-upward i {
+	pointer-events: none;
+}
+
+#welcome,
 #reception,
 #registry,
 #countdown,
@@ -50,13 +51,13 @@ nav ul a {
 	min-height: 100vh;
 }
 
-#landing img,
+#welcome img,
 #login img,
 #success img {
 	height: 20vh;
 }
 
-#landing h1,
+#welcome h1,
 #countdown h1,
 h2,
 h4 {
@@ -65,11 +66,11 @@ h4 {
 	margin: 0 auto;
 }
 
-#landing h4 {
+#welcome h4 {
 	margin-top: 0;
 }
 
-#landing .btn-flat,
+#welcome .btn-flat,
 #rsvp .btn-flat,
 #success .btn-flat,
 #login .btn-flat,

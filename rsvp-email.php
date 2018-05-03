@@ -4,15 +4,13 @@ require "sendgrid-php/sendgrid-php.php";
 
 $email = $_POST['email'];
 $name = $_POST['name'];
-$guestname = $_POST['name-of-guest'];
 $mobile = $_POST['mobile-number'];
 $attend = $_POST['attend'];
 $message = $_POST['message'];
 
 $body = "<html>
 <body>
-<p><b>Name:</b> $name</p>
-<p><b>Name of Guest:</b> $guestname</p>
+<p><b>Full Name:</b> $name</p>
 <p><b>Mobile:</b> $mobile</p>
 <p><b>Email:</b> $email</p>
 <p><b>Response:</b> $attend</p>
